@@ -14,6 +14,13 @@
 		CE20A1671E8A021A00D672E2 /* StudentDirectory.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CE20A1651E8A021A00D672E2 /* StudentDirectory.xcdatamodeld */; };
 		CE20A1691E8A021A00D672E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE20A1681E8A021A00D672E2 /* Assets.xcassets */; };
 		CE20A16C1E8A021A00D672E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE20A16A1E8A021A00D672E2 /* LaunchScreen.storyboard */; };
+		CE20A18E1E8A44EE00D672E2 /* CoreDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CE20A18D1E8A44EE00D672E2 /* CoreDataManager.m */; };
+		CE397E631E8B56BE0025D2A8 /* Student+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = CE397E5C1E8B56BE0025D2A8 /* Student+CoreDataClass.m */; };
+		CE397E641E8B56BE0025D2A8 /* Student+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = CE397E5E1E8B56BE0025D2A8 /* Student+CoreDataProperties.m */; };
+		CE397E651E8B56BE0025D2A8 /* Teacher+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = CE397E601E8B56BE0025D2A8 /* Teacher+CoreDataClass.m */; };
+		CE397E661E8B56BE0025D2A8 /* Teacher+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = CE397E621E8B56BE0025D2A8 /* Teacher+CoreDataProperties.m */; };
+		CE397E691E8B5B960025D2A8 /* TeacherViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE397E681E8B5B960025D2A8 /* TeacherViewController.m */; };
+		CE397E6C1E8BA0C10025D2A8 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE397E6B1E8BA0C10025D2A8 /* DetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +35,21 @@
 		CE20A1681E8A021A00D672E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE20A16B1E8A021A00D672E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE20A16D1E8A021A00D672E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE20A18C1E8A44ED00D672E2 /* CoreDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataManager.h; sourceTree = "<group>"; };
+		CE20A18D1E8A44EE00D672E2 /* CoreDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataManager.m; sourceTree = "<group>"; };
+		CE397E5B1E8B56BE0025D2A8 /* Student+CoreDataClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Student+CoreDataClass.h"; sourceTree = "<group>"; };
+		CE397E5C1E8B56BE0025D2A8 /* Student+CoreDataClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Student+CoreDataClass.m"; sourceTree = "<group>"; };
+		CE397E5D1E8B56BE0025D2A8 /* Student+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Student+CoreDataProperties.h"; sourceTree = "<group>"; };
+		CE397E5E1E8B56BE0025D2A8 /* Student+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Student+CoreDataProperties.m"; sourceTree = "<group>"; };
+		CE397E5F1E8B56BE0025D2A8 /* Teacher+CoreDataClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Teacher+CoreDataClass.h"; sourceTree = "<group>"; };
+		CE397E601E8B56BE0025D2A8 /* Teacher+CoreDataClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Teacher+CoreDataClass.m"; sourceTree = "<group>"; };
+		CE397E611E8B56BE0025D2A8 /* Teacher+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Teacher+CoreDataProperties.h"; sourceTree = "<group>"; };
+		CE397E621E8B56BE0025D2A8 /* Teacher+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Teacher+CoreDataProperties.m"; sourceTree = "<group>"; };
+		CE397E671E8B5B960025D2A8 /* TeacherViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TeacherViewController.h; sourceTree = "<group>"; };
+		CE397E681E8B5B960025D2A8 /* TeacherViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TeacherViewController.m; sourceTree = "<group>"; };
+		CE397E6A1E8BA0C10025D2A8 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		CE397E6B1E8BA0C10025D2A8 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		CE430F541E8CA5E200A4D177 /* StudentDirectory 2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "StudentDirectory 2.xcdatamodel"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,11 +82,18 @@
 		CE20A1581E8A021A00D672E2 /* StudentDirectory */ = {
 			isa = PBXGroup;
 			children = (
+				CE20A17F1E8A356E00D672E2 /* CoreData Classes */,
 				CE20A15C1E8A021A00D672E2 /* AppDelegate.h */,
 				CE20A15D1E8A021A00D672E2 /* AppDelegate.m */,
+				CE20A18C1E8A44ED00D672E2 /* CoreDataManager.h */,
+				CE20A18D1E8A44EE00D672E2 /* CoreDataManager.m */,
 				CE20A15F1E8A021A00D672E2 /* ViewController.h */,
 				CE20A1601E8A021A00D672E2 /* ViewController.m */,
 				CE20A1621E8A021A00D672E2 /* Main.storyboard */,
+				CE397E6A1E8BA0C10025D2A8 /* DetailViewController.h */,
+				CE397E6B1E8BA0C10025D2A8 /* DetailViewController.m */,
+				CE397E671E8B5B960025D2A8 /* TeacherViewController.h */,
+				CE397E681E8B5B960025D2A8 /* TeacherViewController.m */,
 				CE20A1681E8A021A00D672E2 /* Assets.xcassets */,
 				CE20A16A1E8A021A00D672E2 /* LaunchScreen.storyboard */,
 				CE20A16D1E8A021A00D672E2 /* Info.plist */,
@@ -80,6 +109,21 @@
 				CE20A15A1E8A021A00D672E2 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CE20A17F1E8A356E00D672E2 /* CoreData Classes */ = {
+			isa = PBXGroup;
+			children = (
+				CE397E5B1E8B56BE0025D2A8 /* Student+CoreDataClass.h */,
+				CE397E5C1E8B56BE0025D2A8 /* Student+CoreDataClass.m */,
+				CE397E5D1E8B56BE0025D2A8 /* Student+CoreDataProperties.h */,
+				CE397E5E1E8B56BE0025D2A8 /* Student+CoreDataProperties.m */,
+				CE397E5F1E8B56BE0025D2A8 /* Teacher+CoreDataClass.h */,
+				CE397E601E8B56BE0025D2A8 /* Teacher+CoreDataClass.m */,
+				CE397E611E8B56BE0025D2A8 /* Teacher+CoreDataProperties.h */,
+				CE397E621E8B56BE0025D2A8 /* Teacher+CoreDataProperties.m */,
+			);
+			name = "CoreData Classes";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -154,9 +198,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE20A1611E8A021A00D672E2 /* ViewController.m in Sources */,
+				CE397E631E8B56BE0025D2A8 /* Student+CoreDataClass.m in Sources */,
+				CE397E651E8B56BE0025D2A8 /* Teacher+CoreDataClass.m in Sources */,
+				CE20A18E1E8A44EE00D672E2 /* CoreDataManager.m in Sources */,
 				CE20A1671E8A021A00D672E2 /* StudentDirectory.xcdatamodeld in Sources */,
+				CE397E661E8B56BE0025D2A8 /* Teacher+CoreDataProperties.m in Sources */,
 				CE20A15E1E8A021A00D672E2 /* AppDelegate.m in Sources */,
+				CE397E6C1E8BA0C10025D2A8 /* DetailViewController.m in Sources */,
+				CE397E641E8B56BE0025D2A8 /* Student+CoreDataProperties.m in Sources */,
 				CE20A15B1E8A021A00D672E2 /* main.m in Sources */,
+				CE397E691E8B5B960025D2A8 /* TeacherViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -313,6 +364,7 @@
 				CE20A1721E8A021A00D672E2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
@@ -320,9 +372,10 @@
 		CE20A1651E8A021A00D672E2 /* StudentDirectory.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
+				CE430F541E8CA5E200A4D177 /* StudentDirectory 2.xcdatamodel */,
 				CE20A1661E8A021A00D672E2 /* StudentDirectory.xcdatamodel */,
 			);
-			currentVersion = CE20A1661E8A021A00D672E2 /* StudentDirectory.xcdatamodel */;
+			currentVersion = CE430F541E8CA5E200A4D177 /* StudentDirectory 2.xcdatamodel */;
 			path = StudentDirectory.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
